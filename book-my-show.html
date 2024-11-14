@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Header -->
+    <header class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">BookMyShow 👊</h1>
+            <nav class="flex items-center space-x-6">
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:text-red-500">Movies</a></li>
+                    <li><a href="#" class="hover:text-red-500">Events</a></li>
+                    <li><a href="#" class="hover:text-red-500">Offers</a></li>
+                    <li><a href="#" class="hover:text-red-500">Login</a></li>
+
+                    <li>
+                        <a href="#" class="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded">Sign In</a>
+                    </li>
+                </ul>
+
+                <div class="mx-4">
+                    <input type="text" placeholder="Search..." class="w-64 p-2 rounded-lg bg-gray-700 text-white placeholder-gray-400" />
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="advert w-2000 h-400">
+        <img src="ad.png" alt="Advertisement" class="w-2000 h-400 object-cover pl-14 ml-10 mr-10 mt-5 rounded-lg">
+    </div>
+    <main class="container mx-auto mt-6">
+        <h2 class="text-2xl font-semibold mb-4">Trending Movies</h2>
+        <div class="grid grid-cols-3 gap-4">
+            <div class="bg-gray-800 rounded-lg p-4">
+                <img src="m1.avif" alt="Movie Poster" class="rounded-lg mb-2">
+                <h3 class="text-lg font-bold">Vicky Vidya ka Woh Wala Video</h3>
+                <p class="text-sm">Release Date:2-10-2024</p>
+                <button class="mt-2 w-full bg-red-500 hover:bg-red-600 py-2 rounded">Book Now</button>
+            </div>
+            <div class="bg-gray-800 rounded-lg p-4">
+                <img src="m2.png" alt="Movie Poster" class="rounded-lg mb-2">
+                <h3 class="text-lg font-bold">Jigra</h3>
+                <p class="text-sm ">Release Date: 21-9-2024</p>
+                <button class="mt-2 w-full bg-red-500 hover:bg-red-600 py-2 rounded ">Book Now</button>
+            </div>
+            <div class="bg-gray-800 rounded-lg p-4">
+                <img src="m3.png" alt="Movie Poster" class="rounded-lg mb-2">
+                <h3 class="text-lg font-bold">Joker: Folie a Deux</h3>
+                <p class="text-sm">Release Date: 11-10-2024</p>
+                <button class="mt-2 w-full bg-red-500 hover:bg-red-600 py-2 rounded">Book Now</button>
+            </div>
+            <div class="">
+                <img src="stream.png" alt="ad2" class="w-2000 h-400 object-cover rounded-lg mb-2">
+            </div>
+        </div>
+        <h2 class="text-2xl font-semibold mb-4">Best of Live Entertainment</h2>
+        <div class="flex  space-x-3 ">
+            <div class="bg-gray-800 rounded-lg p-1">
+                <img src="a1.png" alt="imager" class="rounded-lg m-0">
+            </div>
+            <div class="bg-gray-800 rounded-lg p-1">
+                <img src="a2.png" alt="imager" class="rounded-lg mb-0">
+            </div>
+            <div class="bg-gray-800 rounded-lg p-1">
+                <img src="a3.png" alt="imager" class="rounded-lg mb-0">
+            </div>
+            <div class="bg-gray-800 rounded-lg p-1">
+                <img src="a4.png" alt="imager" class="rounded-lg mb-0">
+            </div>
+        </div>
+        <!-- Video Section -->
+    <section class="container mx-auto my-10">
+        <h2 class="text-3xl font-bold  mb-6">Movie Trailers</h2>
+        <div class="flex justify-center space-x-7 ">
+
+            <div class="aspect-w-16 aspect-h-9">
+                <iframe width="400" height="217" src="https://www.youtube.com/embed/CLJDR-vFUdY?si=y4vSdMMCyyu6hMez" title="YouTube video " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            <div class="aspect-w-16 aspect-h-9">
+                <iframe width="400" height="217" src="https://www.youtube.com/embed/MD7v0-igVIM?si=9T19jT-wlWV2HrTp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            <div class="aspect-w-16 aspect-h-9">
+                <iframe width="400" height="217" src="https://www.youtube.com/embed/HyIyd9joTTc?si=2IK0xlQ-N9m6boWl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+        
+    </section>
+        
+    </main>
+
+    <footer class="bg-gray-800 p-4 mt-6">
+        <div class="container mx-auto text-center">
+            <p>© 2024 BookMyShow Clone by Ahaan Deshpande :]. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
